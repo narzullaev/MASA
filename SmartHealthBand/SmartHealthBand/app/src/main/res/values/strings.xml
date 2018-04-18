@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MASA</string>
+    <string name="ip_hint">192.168.4.1</string>
+    <string name="mqt_tv"> MQTT BROKER IP</string>
+    <string name="temperatureTV">TEMPERATURE</string>
+    <string name="default_cel">31 Celcius</string>
+    <string name="heartRateTV">HEART RATE</string>
+    <string name="movementTV">MOVEMENT</string>
+    <string name="moving">Moving...</string>
+</resources>
