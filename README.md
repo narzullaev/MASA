@@ -13,3 +13,17 @@ An IoT project developed for fall detection, it is intended to be used to monito
 # Project Concept
 ![](https://i.imgur.com/VUBttD2.jpg)
 ![](https://i.imgur.com/lFDZDol.jpg)
+
+
+# Future Plans
+### Analysis of data collected in the server
+The collected data will further be analysed using AI technologies to come up with better results. Besides, it can be used for activity charting and statistic over a certain period and also in pattern profiling and alert notifications.
+
+### System Extension
+* Empty home alert - The elderly has left home
+* Arrived home alert - the elderly has arrived home
+* Prolonged Dwelling Alerts
+* Prolonged empty home alert - the elderly has not arrived home until a configurable timing
+* No activity alert - The elderly has not moved for a configurable period of time
+* Location based alert – Display the current location of band wearer
+
