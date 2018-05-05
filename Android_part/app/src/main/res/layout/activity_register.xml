@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="zhenkit.masaproject.register">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/hello" />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:textColor="@color/whatever_background_color_you_want"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:text="Registration" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/whatever_background_color_you_want"
+            android:textColorHint="@color/whatever_background_color_you_want"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            style="@android:style/Widget.Material.Light.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/whatever_background_color_you_want"
+            android:textColorHint="@color/whatever_background_color_you_want"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:singleLine="false"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse" />
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/whatever_text_color_you_wan"
+            app:backgroundTint="@color/whatever_background_color_you_want"
+            android:text="Signup" />
+
+        <TextView
+            android:id="@+id/signIn"
+            android:textColor="@color/whatever_background_color_you_want"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:onClick="onLogin"
+            android:text="Registered? Sign In here" />
+
+    </LinearLayout>
+
+</RelativeLayout>
